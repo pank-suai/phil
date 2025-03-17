@@ -49,6 +49,7 @@
 
 #include "src/990_практика_1.typ"
 
+#set page(margin: (x: 0pt, top: 15pt, bottom: 0pt))
 = Карточки
 
 // На приличных картонках надо сделать
