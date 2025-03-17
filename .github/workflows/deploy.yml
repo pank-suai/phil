@@ -21,6 +21,7 @@ jobs:
       - run: fontist install "Iosevka"
       - uses: typst-community/setup-typst@v3
       - run: typst compile index.typ index.pdf
+      - run: typst compile ./src/999_карточки.typ cards.pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
