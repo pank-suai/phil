@@ -3,6 +3,7 @@
 #let questions = csv("999_карточки.csv")
 #set text(23pt)
 
+
 #grid(columns: 2, gutter: 9pt, align: center, ..questions.map(question => {
   link(label(str(question.first())))[
     #block(
@@ -12,5 +13,5 @@
       width: 100%,
     )
   ]
-}))
+})) 
 
