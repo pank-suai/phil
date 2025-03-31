@@ -55,10 +55,12 @@
 
 #include "src/991_практика_2.typ"
 
+#include "src/992_практика_3.typ"
+
 #set page(margin: (x: 0pt, top: 15pt, bottom: 0pt))
 
+
 = Карточки
-<28> // TODO
 
 // На приличных картонках надо сделать
 
