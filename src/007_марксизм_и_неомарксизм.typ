@@ -1,5 +1,7 @@
 = Марксизм и Неомарксизм
 
+<65>
+
 ```
 Основано на начале видео лекции:
 https://youtu.be/sFMHaX2skzQ?si=TwGFjhtQmfCtrfc9
@@ -97,3 +99,4 @@ https://youtu.be/sFMHaX2skzQ?si=TwGFjhtQmfCtrfc9
 === Философия не только должна объяснять мир, но и изменять его
 
 
+<63> // TODO

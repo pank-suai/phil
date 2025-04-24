@@ -65,7 +65,12 @@
 
 #include "src/992_практика_3.typ"
 
+#include "src/993_практика_4.typ"
+
+
+
 #set page(margin: (x: 0pt, top: 15pt, bottom: 0pt))
+
 
 
 = Карточки
