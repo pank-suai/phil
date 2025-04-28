@@ -67,6 +67,7 @@
 
 #include "src/993_практика_4.typ"
 
+#include "src/994_практика_5.typ"
 
 
 #set page(margin: (x: 0pt, top: 15pt, bottom: 0pt))
