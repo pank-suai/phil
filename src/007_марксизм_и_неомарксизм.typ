@@ -99,4 +99,3 @@ https://youtu.be/sFMHaX2skzQ?si=TwGFjhtQmfCtrfc9
 === Философия не только должна объяснять мир, но и изменять его
 
 
-<63> // TODO
