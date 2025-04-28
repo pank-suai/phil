@@ -2,13 +2,6 @@
 #set par(justify: false)
 #let questions = csv("999_карточки.csv")
 
-Нет ссылок:
-66<66>
-67<67>
-68<68>
-69<69>
-70<70>
-71<71>
 
 #set text(23pt)
 
