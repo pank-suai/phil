@@ -82,14 +82,14 @@
 
 #include "src/995_практика.typ"
 
+#include "src/996_термины.typ"
+
+
+#set heading(numbering: none)
 
 #set page(margin: (x: 0pt, top: 0pt, bottom: 0pt))
 
-#set heading(numbering: (..nums) => {
-  if nums.pos().len() == 1 {
-    return ""
-  }
-})
+
 = Карточки
 
 Нет ссылок:
