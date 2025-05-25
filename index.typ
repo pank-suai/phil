@@ -62,15 +62,14 @@
 
 #set heading(numbering: (..nums) => {
   if nums.pos().len() == 1 {
-    return "Приложение " + numbering("A.", ..nums)
+    return "Практика " + numbering("A.", ..nums)
   }
   return numbering("A.1.", ..nums)
 })
 
 #counter(heading).update(0)
 
-= Практика
-
+// Практики
 #include "src/990_практика_1.typ"
 
 #include "src/991_практика_2.typ"
@@ -86,28 +85,15 @@
 
 #set page(margin: (x: 0pt, top: 0pt, bottom: 0pt))
 
-
-
+#set heading(numbering: (..nums) => {
+  if nums.pos().len() == 1 {
+    return ""
+  }
+})
 = Карточки
 
 Нет ссылок:
 
-75
-<75>
-76
-<76>
-77
-<77>
-78
-<78>
-79
-<79>
-80
-<80>
-81
-<81>
-82
-<82>
 83
 <83>
 // На приличных картонках надо сделать

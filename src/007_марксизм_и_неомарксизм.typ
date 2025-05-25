@@ -13,8 +13,6 @@ https://youtu.be/sFMHaX2skzQ?si=TwGFjhtQmfCtrfc9
 
 == Карл Маркс (1818-1883 гг.)
 
-#figure(image("images/002_karl_marx_meme.jpg", width: 50%))
-
 Три основных идеи в его философии:
 
 === Концепция _диалектического_ материализма
