@@ -8,7 +8,11 @@
 }
 
 
+#let is-print = true
+
+
 #show: ilm.with(
+  chapter-pagebreak: not is-print,
   title: [Философия],
   author: 
     "Панков Василий <pank-su>",
@@ -21,7 +25,14 @@
   ],
   date: datetime.today(),
   abstract: [По лекциям Коломийцева],
-  table-of-contents: outline(depth: 2),
+  table-of-contents: {
+    if (not is-print){
+      outline(depth: 2)
+
+    }else{
+      none
+    }
+    },
   external-link-circle: false
 )
 
@@ -82,7 +93,11 @@
 
 #include "src/995_практика.typ"
 
-#include "src/996_термины.typ"
+#if (not is-print){
+  include "src/996_термины.typ"
+
+}
+
 
 
 #set heading(numbering: none)
@@ -92,9 +107,9 @@
 
 = Карточки
 
-Нет ссылок:
+//Нет ссылок:
 
-83
+//83
 <83>
 // На приличных картонках надо сделать
 
